@@ -1,0 +1,85 @@
+.sb {
+  display: inline-grid;
+  grid-auto-flow: row;
+  grid-gap: 24px;
+  justify-items: center;
+  margin: auto;
+  background-color: rgba(255, 222, 173, 0);
+  text-align: center;
+  color: beige;
+
+}
+
+.zw{
+  background-color: #023a17;
+  text-align: center;
+}
+.sw{
+  background-color: #023a17;
+}
+.wow{
+  display: flex;
+  height: 30vh;
+  width: 100%;
+  background-color: #023a09;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: aliceblue;
+animation-name: anm;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@media (min-width: 500px) {
+  .sb {
+    grid-auto-flow: column;
+    
+  }
+}
+
+.azg {
+  color: white;
+  text-decoration: none;
+  box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
+}
+
+.azg:hover {
+  box-shadow: inset 0 -1.2em 0 hsla(0, 0%, 100%, 0.4);
+}
+
+.wa:last-child:last-child {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.walid:hover ~ .walidd p {
+  animation: wave-animation 0.3s infinite;
+}
+
+/* below is just for demo styling */
+
+.dv {
+  display: flex;
+  height: 30vh;
+  width: 100%;
+  background-color: #023a09;
+  line-height: 1.3;
+  font-family: Menlo, monospace;
+  
+  animation-name: anm;
+  animation-duration: 5s;
+  
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes anm {
+  5%   {background-color: #023a09}
+  20%  {background-color: rgb(61, 85, 6);}
+  50%  {background-color: rgb(122, 250, 90);}
+  100% {background-color: rgb(25, 97, 10);}
+}
+
+
+

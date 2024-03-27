@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #a5ff8f; /* light green */
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            padding: 30px;
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.7); /* Faded dark green */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+        }
+        h2 {
+            margin-top: 0;
+            font-size: 28px;
+        }
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #00FF7F; /* Lucerous green */
+            color: #000;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size: 18px;
+        }
+        button:hover {
+            background-color: #32CD32; /* Light green on hover */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Thank You for Your Order!</h2>
+    <p>Your order has been successfully placed.</p>
+    <button onclick="goToHomePage()">Back to Home</button>
+</div>
+
+<script>
+    function goToHomePage() {
+        // Redirect to the home page
+        window.location.href = "Site.html"; // Change "index.html" to the actual home page URL
+    }
+</script>
+
+</body>
+</html>
